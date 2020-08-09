@@ -1,0 +1,41 @@
+{
+    "site-desc":  "Get personalized messages from your favorite celebrities",
+    "homeintro-btn":  "find your favourite star here",
+    "auth-btn":{
+        "1":"Register",
+        "2":"LogIn"
+    },
+    "see all":"See all",
+    "see more":"See more",
+    "search":"Search",
+    "auth":{
+        "1":"name",
+        "2":"email",
+        "3":"password",
+        "4":"repeat password"
+    },
+    "footer":{
+        "1":"Help",
+        "2":"Terms",
+        "3":"Privacy",
+        "4":"About Us"
+        
+    },
+    "rights":"All rights reserved",
+    "terms of service":"I agree with all Terms of Service",
+    "no account?":"no account ?",
+    "register here":"register here",
+    "have an account?":"Have already an account?",
+    "login here":"Login here",
+    "book video":{
+        "1":"Book a video from",
+        "2":"MySelf",
+        "3":"For Someone else",
+        "4":"from",
+        "5":"to",
+        "6":"Subject",
+        "7":"Short Description",
+        "8":"Hide video from star page"
+    },
+    "request":"request for"
+}

@@ -1,0 +1,36 @@
+
+.display-none {
+    text-align: center;
+}
+.favourite-star-title {
+    text-align: center;
+}
+.favourite-star-main {
+    padding-top: 25px;
+}
+.close-icon {
+    position: absolute;
+    top: 24px;
+    right: 16%;
+}
+
+.fav-star-empty {
+    padding-top: 150px;
+    padding-bottom: 240px;
+
+}
+
+.fav-star-empty p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+  
+@media (max-width: 1440px) {
+    .close-icon {
+        position: absolute;
+        top: 24px;
+        right: 11%;
+    }
+  
+}

@@ -1,0 +1,37 @@
+.star-register {
+  color: #fff;
+  width: 100%;
+  position: relative;
+  min-height: calc(100vh - 70px);
+  border: none;
+}
+.star-content {
+  margin-top: -10px !important;
+  padding-bottom: 60px !important;
+  width: 50%;
+  margin: 0 auto;
+}
+.star-register .section-heading-profile {
+  padding: 40px 45px 0 45px !important;
+}
+.star-add-button {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.form-control-select option {
+  background: #1f1f1e;
+  color: #fff;
+  box-shadow: inset 20px 20px #1f1f1e;
+}
+body {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  position: initial !important;
+}
+.terms-checkbox-star {
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+

@@ -1,0 +1,144 @@
+.CategoriesPage {
+  padding: 90px 0 90px 0;
+  margin: 0 auto;
+  background: #191918;
+  min-height: calc(100vh - 70px);
+}
+
+.team {
+  width: 100%;
+  display: block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #333333;
+  padding-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 25px 0;
+}
+
+.item {
+  padding: 0 40px;
+}
+
+.team .img {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.team .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.team .img:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: #a43f49;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.team .position {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #a43f49;
+}
+
+.hoverEffect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hoverEffect a:hover {
+  color: #fff !important;
+}
+
+.hoverEffect a {
+  font-size: 20px;
+}
+
+.team:hover .hoverEffect {
+  opacity: 1;
+  transition: 0.5s;
+  color: #fff !important;
+}
+
+.category-block {
+  display: flex;
+  justify-content: center;
+}
+
+.category-list {
+  border: 1px solid #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #333333;
+}
+
+.category-link {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.category-link:hover {
+  color: #fff;
+}
+
+.category-list-active {
+  border: 1px solid #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(164, 63, 73, 0.9) !important;
+}
+.no-star-title {
+  text-align: center;
+}
+.no-star-block {
+  margin: 0 auto;
+  padding-top: 100px;
+}
